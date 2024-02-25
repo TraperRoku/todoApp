@@ -43,6 +43,10 @@ TodoApp is a simple web application for managing todo tasks. It allows users to 
 # MySQL and Docker
 ![image](https://github.com/TraperRoku/todoApp/assets/119821555/bbbca8ff-8115-4aaf-9afb-896085fb34bd)
 
+TodoRepository: This repository interface is used for accessing data in memory, meaning that the data is stored in RAM and is lost after the application's termination. It operates on a collection of Todo objects and is responsible for CRUD operations on these objects in memory.
+
+TodoRepositoryJpa: This repository interface is used for accessing data from a database using JPA. It is a Spring Data JPA interface that provides an object-relational mapping mechanism to the database. With TodoRepositoryJpa, we can perform CRUD operations on Todo entities, which are mapped to the appropriate table in the database.
+
 
 
 
